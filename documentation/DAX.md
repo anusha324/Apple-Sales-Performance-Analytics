@@ -108,7 +108,11 @@ DIVIDE([Total Claims], DISTINCTCOUNT(sales[sale_id]), 0)
 
 
 
-📐 DAX Columns 
+
+
+
+
+📐 ###DAX Columns 
 
 
 ## 1. Warranty 
@@ -153,7 +157,10 @@ DATEADD( 'sales'[sale_date], 1, YEAR )
 
 
 
-📐 New table
+
+
+
+📐 ###New table
 
 
 Calender = CALENDAR(FIRSTDATE(sales[sale_date]),LASTDATE(sales[sale_date]))

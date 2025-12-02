@@ -139,18 +139,13 @@ Relationship directions were set to maintain clean filter flow and avoid ambigui
 
 ## 5. Why This Schema Was Chosen
 ✔ Easy to understand
+
 ✔ Efficient for Power BI
+
 ✔ Supports advanced DAX (YTD, MTD, YoY)
+
 ✔ Eliminates circular dependencies (through separate date tables)
-✔ Enables scalable insights across multiple business areas:
 
-Sales
-
-Warranty
-
-Geographic performance
-
-Product & category trends
 
 
 ## 7. Conclusion

@@ -8,16 +8,6 @@ The data model follows a Star Schema, with two fact tables (sales and warranty) 
 
 There is one snowflake-style extension from the products table to the category table.
 
-This approach provides:
-
-Faster performance
-
-Cleaner DAX measures
-
-Easier filtering
-
-Better scalability
-
 ## 2. Fact Tables
 🔹 1. sales (Primary Fact Table)
 
@@ -148,8 +138,7 @@ Year
 ✔ Eliminates circular dependencies (through separate date tables)
 
 
-
-## 7. Conclusion
+## 6. Conclusion
 
 The model is a Star Schema with a Snowflake extension, intentionally designed to deliver:
 

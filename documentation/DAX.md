@@ -160,7 +160,7 @@ DATEADD( 'sales'[sale_date], 1, YEAR )
 
 
 
-📐 ###New table
+# New table
 
 
 Calender = CALENDAR(FIRSTDATE(sales[sale_date]),LASTDATE(sales[sale_date]))

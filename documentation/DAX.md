@@ -1,7 +1,7 @@
 
 # DAX Measures
 
-This file documents all DAX measures used in the Apple Product Performance Analytics Dashboard.
+This file documents all DAX measures,columns,tables used in the Apple Product Performance Analytics Dashboard.
 
 ## 1. Sales Measures
 

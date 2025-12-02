@@ -1,5 +1,5 @@
 
-📐 DAX Measures Documentation
+# DAX Measures
 
 This file documents all DAX measures used in the Apple Product Performance Analytics Dashboard.
 
@@ -112,7 +112,7 @@ DIVIDE([Total Claims], DISTINCTCOUNT(sales[sale_id]), 0)
 
 
 
-📐 ###DAX Columns 
+# DAX Columns 
 
 
 ## 1. Warranty 

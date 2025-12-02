@@ -22,6 +22,7 @@ Better scalability
 🔹 1. sales (Primary Fact Table)
 
 Stores transactional sales information.
+
 Columns:
 
 sale_id

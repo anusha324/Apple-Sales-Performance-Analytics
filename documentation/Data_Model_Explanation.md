@@ -127,15 +127,15 @@ Year
 
 
 ## 4. Relationships Summary
-From Table	Column	To Table	Column	Relationship
-products	product_id	sales	product_id	1:*
-category	category_id	products	category_id	1:*
-stores	store_id	sales	store_id	1:*
-Date	Date	sales	sale_date	1:*
-Calendar	Date	warranty	claim_date	1:*
-sales	sale_id	warranty	sale_id	1:* (one sale can have multiple claims)
+| From Table | Column      | To Table | Column      | Relationship                            |
+| ---------- | ----------- | -------- | ----------- | --------------------------------------- |
+| products   | product_id  | sales    | product_id  | 1:*                                     |
+| category   | category_id | products | category_id | 1:*                                     |
+| stores     | store_id    | sales    | store_id    | 1:*                                     |
+| Date       | Date        | sales    | sale_date   | 1:*                                     |
+| Calendar   | Date        | warranty | claim_date  | 1:*                                     |
+| sales      | sale_id     | warranty | sale_id     | 1:* (one sale can have multiple claims) |
 
-Relationship directions were set to maintain clean filter flow and avoid ambiguity.
 
 ## 5. Why This Schema Was Chosen
 ✔ Easy to understand

@@ -33,13 +33,13 @@ DAX — calculated metrics
 
 ## 🧱 Data Model (Star Schema)
 
-Fact Tables
+Fact Tables:
 
 sales 
 
 warranty 
 
-Dimension Tables
+Dimension Tables:
 
 products
 

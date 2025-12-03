@@ -35,9 +35,9 @@ DAX — calculated metrics
 
 Fact Tables
 
-sales — revenue, quantity, sale date
+sales 
 
-warranty — claims, repair status, claim duration
+warranty 
 
 Dimension Tables
 
